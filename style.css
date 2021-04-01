@@ -247,6 +247,27 @@ nav button.btn:hover, #home button:hover{
     }
 }
 
+/* -------------Footer------------- */
+
+footer{
+    background-color: black;
+}
+
+footer .row{
+    padding: 20px 0;
+}
+
+footer img{
+    width: 250px;
+    padding: 20px;
+}
+
+footer ul{
+    padding: 20px;
+    margin: 0;
+}
+
+/* ------------Media queries------------ */
 @media screen and (max-width: 450px){
     #home button{
         margin-bottom: 10px;
@@ -258,6 +279,12 @@ nav button.btn:hover, #home button:hover{
 
     #about .col-md-6 p{
         font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 575px){
+    footer .col-sm-6{
+        padding: 20px 0;
     }
 }
 
